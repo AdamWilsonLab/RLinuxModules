@@ -42,7 +42,7 @@ module <- function( Arguments ){
          "  Run moduleInit() to initialize module envionment" )
   }
 
-  moduleCmd <- file.path(Sys.getenv('MODULESHOME'),"bin/modulecmd")
+  moduleCmd <- file.path(Sys.getenv('MODULESHOME'),"libexec/lmod")
   # check if modulecmd exists
   if(!file.exists( moduleCmd) ){
     stop(moduleCmd," missing!\n",
