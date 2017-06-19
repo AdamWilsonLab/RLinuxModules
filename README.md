@@ -3,7 +3,7 @@ R package that makes linux [environment modules](http://modules.sourceforge.net/
 
 ## installation
 ```r
-devtools::install_github("larsgr/RLinuxModules")
+devtools::install_github("AdamWilsonLab/RLinuxModules")
 ```
 
 ## use example:
