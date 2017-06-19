@@ -11,8 +11,8 @@ moduleInit <- function( version = '3.2.10',
                         modulesHome = '/local/genome/Modules/3.2.10'){
 
   # Check if modulecmd exists in the
-  if(!file.exists( file.path(modulesHome,"bin/lmod") )){
-    stop(file.path(modulesHome,"bin/lmod")," missing!\n",
+  if(!file.exists( file.path(modulesHome,"libexec/lmod") )){
+    stop(file.path(modulesHome,"libexec/lmod")," missing!\n",
          "  Module environment init failed!" )
   }
 
